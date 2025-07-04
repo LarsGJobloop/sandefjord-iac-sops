@@ -19,3 +19,7 @@ Includes:
 
 **[SOPS]()** & **[Age]()**
 
+### Links
+
+- [SOPS Installation](https://github.com/getsops/sops/releases)
+- [Age Installation](https://github.com/FiloSottile/age/releases)
