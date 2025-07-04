@@ -3,3 +3,13 @@ keys:
   - &larsgunnar age16md5ap2g2vue99n4pjdrmnstuzegp2n2m46ej56cgeryklh6s9sq0yfy3x
   - &paco age1afv4svstg2dc8mr49qf8hq5xj7gfm2gfaagdhucgrfnjkj50se8s8wj3kd
   - &lillian age1ncxfpn9uy6mnxjephpnu4p7lrfxx4xusadmytdj3qyevdlvg3e0q3r5pgn
+
+creation_rules:
+  # Shared secrets
+  - path_regex: secrets/api-tokens.yaml
+    key_groups:
+      - age:
+          - *admin
+          - *larsgunnar
+          - *paco
+          - *lillian
