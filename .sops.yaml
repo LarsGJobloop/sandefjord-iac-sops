@@ -13,3 +13,12 @@ creation_rules:
           - *larsgunnar
           - *paco
           - *lillian
+  # Scoped secrets
+  - path_regex: secrets/paco.yaml
+    key_groups:
+      - age:
+          - *paco
+  - path_regex: secrets/lil.yaml
+    key_groups:
+      - age:
+          - *lillian
