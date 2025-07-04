@@ -22,6 +22,14 @@ Includes:
 > [!IMPORTANT]
 > SOPS looks for `keys.txt` in certain locations, see [documentation](https://github.com/getsops/sops?tab=readme-ov-file#23encrypting-using-age) for details
 
+### Command Shortlist
+
+- Decrypt files (using non )
+
+    ```sh
+    SOPS_AGE_KEY_FILE="$(pwd)/keys.txt" sops encrypt --in-place secrets/api-tokens.yaml
+    ```
+
 ### Links
 
 - [SOPS Installation](https://github.com/getsops/sops/releases)
