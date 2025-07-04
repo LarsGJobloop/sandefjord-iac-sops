@@ -22,6 +22,18 @@ resource "github_repository" "this_repository" {
   description = "Walktrough of how to use IaC and SOPS for defining projects"
 }
 
+resource "github_repository_collaborators" "name" {
+  repository = github_repository.this_repository.name
+
+  user {
+    username = "lillian24sfj"
+  }
+
+  user {
+    username = "Pacolomoreno"
+  }
+}
+
 output "project" {
   value = github_repository.this_repository.html_url
 }
