@@ -11,6 +11,10 @@ Includes:
 - Hardware/Infrastructure (IaaS)
 - Software as a Service (SaaS)
 
+### Links
+
+- [Terraform Installation](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
 ## Secrets OPerations (SOPS)
 
 **[SOPS]()** & **[Age]()**
