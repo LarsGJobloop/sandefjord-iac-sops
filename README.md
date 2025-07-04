@@ -19,6 +19,9 @@ Includes:
 
 **[SOPS]()** & **[Age]()**
 
+> [!IMPORTANT]
+> SOPS looks for `keys.txt` in certain locations, see [documentation](https://github.com/getsops/sops?tab=readme-ov-file#23encrypting-using-age) for details
+
 ### Links
 
 - [SOPS Installation](https://github.com/getsops/sops/releases)
